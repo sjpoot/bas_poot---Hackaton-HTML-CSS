@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Bassie's Music Corner - Contact</title>
+</head>
+
+<body class="body-mijnbands">
+    <header>
+        <h2>Contact, vragen en opmerkingen</h2>
+    </header>
+    <main>
+        <article>
+            <h3>Heb je een vraag of opmerkingen, of een goed idee? Laat hier een berichtje achter:</h3>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label class="label-width" for="name">Wat is je naam:</label>
+                    <input type="text" id="name" name="name" />
+                </p>
+                <p>
+                    <label class="label-width" for="email">Emailadres:</label>
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>
+                    <label for="remark">Laat hier je opmerking, vraag of wat dan ook achter:</label><br>
+                    <textarea class="area-width" name="remark" id="remark"></textarea>
+                </p>
+                <p>
+                    Wat vind je van deze website?<br>
+                    <input type="radio" name="rating" id="top" value="Helemaal top" />
+                    <label class="radio-width" for="top">Helemaal top</label><br>
+                    <input type="radio" name="rating" id="leuk" value="Leuke website" />
+                    <label class="radio-width" for="leuk">Leuke website</label><br>
+                    <input type="radio" name="rating" id="oke" value="Wel oké" />
+                    <label class="radio-width" for="oke">Wel oké</label><br>
+                    <input type="radio" name="rating" id="nietzo" value="Niet zo" />
+                    <label class="radio-width" for="nietzo">Niet zo</label><br>
+                    <input type="radio" name="rating" id="niks" value="Helemaal niks" />
+                    <label class="radio-width" for="niks">Helemaal niks</label><br>
+                </p>
+                <p>
+                    <button class="button-style" type="submit">Verstuur formulier</button>
+                </p>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <a href="index.html">Terug naar de homepagina</a>
+    </footer>
+</body>
+
+</html>
